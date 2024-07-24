@@ -117,6 +117,10 @@ section-title h2::after {
     transform: scale(1.05);
 }
 
+::shadow {
+   box-shadow: 0 0  20px rgba(48, 46, 77, .15) ;
+}
+
 /* aside */
 .aside {
     width: 270px;
@@ -448,8 +452,23 @@ section-title h2::after {
    margin-bottom: 30px;
    font-weight: 700;
    color: var(--text-black-900);
-
  }
+
+ .about .about-content .timeline-box {
+   flex: 0 0 100%;
+   max-width: 100%;
+   background-color: red;
+ }
+
+ .about .about-content .timeline {
+   background-color: var(--bg-black-100);
+   padding: 30px 15px;
+   border: 1px solid var(--bg-black-50);
+   border-radius: 10px;
+   width: 100%px;
+   position: relative;
+
+}
 
 
  
