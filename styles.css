@@ -497,6 +497,15 @@ section-title h2::after {
    background-color: var(--skin-color);
 }
 
- 
+.about .about-content .timeline .timeline-date {
+   font-weight: 400;
+   font-size: 14px;
+   margin-bottom: 12px;
+   color: var(--text-black-700);
+}
 
+
+.about .about-content .timeline .timeline-date .fa{
+   margin-right: 5px;
+}
 
